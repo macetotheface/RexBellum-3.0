@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="35" height="35" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="1sttileset" tilewidth="16" tileheight="16" tilecount="96" columns="4">
+  <image source="1sttileset.png" width="64" height="384"/>
+ </tileset>
+ <layer name="Water 1" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DQQ0AAAwDoXvUv+YJGSSsmqqqqqo+fu9Yi60kEwAA
+  </data>
+ </layer>
+ <layer name="Water 2" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2USQ7EMAgEI+X/f56rhVi6gMzJSD7ELC6HNs9zTbG32HuDGNWvMpwr80W8mb/DE51dcW4zVf3xfJZfzaUs9iyVwdbrMila6awNlnNPrR39zy0WUpuyZ3W678LT0casIfVs3OasUefJlwwZy5fvReEgDEofOxyUgeqacES+aW8246hGvf+8yZLN5TPGzkaiF+WulS/jms7e6G1XOd53lku4Mj6i5wlLVM/TAtFxhyPrPdEB6TXJn8ys7A60Jp2xU31FdafndM9X70jZovt1jWjg2rVr/7cfKX6BfiQTAAA=
+  </data>
+ </layer>
+ <layer name="Water 3" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9VVWwrAMAhr73/pMdjHkDrj2wUKW32FNtq1/oP9rO76XTxO9eleFT9NzSncTrU77lI6qwk81stWcW+Inqv1w9kknypM4HBjGg8tlwxtoTru1PkJk2d1dm3OXsGB26/WQ5Ruo7l662f1NmdDckTUl/JI73vlvJR0buVgwSbfXn1Y47PeHmtcRp94uaDzRep/K7hYdNZQv8jeR87EkgfRAmrf5P/LR6rBcdPo4yvGszho/ZFYT84IZJ5XFVBOF+0XNIgkEwAA
+  </data>
+ </layer>
+ <layer name="Water 4" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC91XSQ6AIAzkxv9/7EUTQ6CdKVNsnISLdLcbrdVEv88f0VsN/xQ2MPxRfV/H6TSq+JuRH924Y+So6Fc+rvgjMWF4Vr2hG3eePORbxCYWVkxR2vd9Rh9Vy6rS69/4wiZPJ2IPU0PZYPLTo8m2ZaRZ9RdPLqvHopkdNaK7hnpPUfTNrPnHIpITO7qsWTij9+ShOiO8DNB/ivquxk6tq2v6xJsBtbnizMzco0ddjGzl3hitAzZ2p3IaBRrTrHk67g27snbtO7kzPbgAHQ85piQTAAA=
+  </data>
+ </layer>
+ <layer name="Ground 1" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SwQ6AIAwDUI78/xd7J5FB7WoJa8KFYHlTW6vspA+L0YF2sZ9H+zJmQToz5mBa2IaV7i/vhGnZOT/uow7EkrXecrNlFheH2lMW3KO0RB61JTI5Wdw8Tt/KyfKX6QSLi8PJonaU5dx/RW2J4mRRedhZuUPhYOcB4PT27yQTAAA=
+  </data>
+ </layer>
+ <layer name="beach" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2XWwqEMAxFs8XReQrj/pcxDRiQ2NEkNnI/eiAfotZjbkuVqOPhVmpcajgxxqfU1GAs4X7CQ8NeHh89TsRlD4/P2mMu9XQ8R7I9ovX71RxqudTwZuXhHbinRW+4B4M6tvZD8GbPrNejlF6nXg8mc754iPQkA6vHN1uE7NlE1oIXJJfJeN0VLlaQXB50zfy1guaDlBWSC+f0op7VP1BcIt8kWfSebEHpCdNd6iC5oO2Psg8clXaed85lo50R/jVa8AOR0AjPJBMAAA==
+  </data>
+ </layer>
+ <layer name="dirt" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Syw0AIAgEUQqw/3q9ePYDgps4k3DmhWBGREREZNbGvNg5mx89O45Kk4rl9C5ZHo8jwxNxYKn7GQWHyk2iDiz6ltspWbyuqlQcK5N6HTr9bvIkEwAA
+  </data>
+ </layer>
+ <layer name="Trees 1" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TuwkAIBAE0WvB/psVMZHDw0BwB9kBA018+Ilw7r6mBsQ0rINioTiUFoojW9RVFoXvZHlpqvZc56ozynPKXSkdu/XXVQ7SP1eX/xXFNaJYSGdDuivq2yFZnHPO/VMH5zd0aiQTAAA=
+  </data>
+ </layer>
+ <layer name="Trees 2" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3USwoAIQwE0T5CruGAc//j6YBuBvfpYD3IvvATCVW1OTHnyQ5ZYo0Llxanc3FpCXm0uHR83Fre7Ihi9t1l7+OQx1v6d9By7nD577zfsy72IQAAtxmisdS2JBMAAA==
+  </data>
+ </layer>
+ <layer name="Trees 3" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SwQkAIQwF0fRgGSto/9WtgoEgePVHmAe5D0nMAAAA8IqqDli+McVy9JQwqh7fxz4KLVHLqUcpNihb/Ge6sCF2qO8yZfmRyf9WfR8Ad/00HfJEJBMAAA==
+  </data>
+ </layer>
+ <layer name="Mountains" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UMQ7AIAzE8gO2/v+pXTogBGTq3Q22lAWGWJagChyMb1IY5XWad6e4rJPioPbpeqh8bi3UbXYuz+b8T5dTB0eT037H+7l1We9VPp2Xyqdro8L9x88kOAAAAABADi/x1AZiJBMAAA==
+  </data>
+ </layer>
+ <layer name="Base 1" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3UQQ0AAAgDMXzg3ycOCD9CaBXssVwEcEVuD+AVfwO4Q7OBCa2AXgFl8ul4JBMAAA==
+  </data>
+ </layer>
+ <layer name="Base 2" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WMQoAIAwEwXuFpMv/f6l2gmklJ+xA+kUkRALwi+gOOOSa0R2Bp1z+2+7I7ggAKDjtppDH3nZ6EwA3l7vKoQGoTC0XWlYkEwAA
+  </data>
+ </layer>
+</map>
