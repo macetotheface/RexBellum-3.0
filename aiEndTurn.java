@@ -8,7 +8,7 @@ public class aiEndTurn {
 	aiEndTurn(faction xFaction){
 		this.aiFaction = xFaction;
 		
-		if (aiFaction.getIncome() < 8 && aiFaction.getManpowerIncome() < 80){
+		if (aiFaction.getIncome() < 4 && aiFaction.getManpowerIncome() < 40){
 			buildFarms();
 		}
 		else if (aiFaction.getManpowerIncome() < 80){
