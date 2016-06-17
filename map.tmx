@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="35" height="35" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="1sttileset" tilewidth="16" tileheight="16" tilecount="96" columns="4">
+  <image source="1sttileset.png" width="64" height="384"/>
+  <tile id="0">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="2"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="2"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="archerMod" type="int" value="-1"/>
+    <property name="bonusBarracks" type="int" value="1"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="archerMod" type="int" value="-1"/>
+    <property name="bonusBarracks" type="int" value="1"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="archerMod" type="int" value="2"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="4"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="archerMod" type="int" value="1"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="2"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="archerMod" type="int" value="1"/>
+    <property name="bonusBarracks" type="int" value="1"/>
+    <property name="bonusFarm" type="int" value="1"/>
+    <property name="bonusMarket" type="int" value="1"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="2"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="2"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="1"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="2"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="1"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="2"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="archerMod" type="int" value="1"/>
+    <property name="bonusBarracks" type="int" value="1"/>
+    <property name="bonusFarm" type="int" value="1"/>
+    <property name="bonusMarket" type="int" value="1"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="2"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="1"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="2"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="1"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="2"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="1"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="2"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="1"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="2"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="1"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="2"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="1"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="2"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="1"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="2"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="1"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="2"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="archerMod" type="int" value="-1"/>
+    <property name="bonusBarracks" type="int" value="1"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="archerMod" type="int" value="-1"/>
+    <property name="bonusBarracks" type="int" value="1"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="archerMod" type="int" value="-1"/>
+    <property name="bonusBarracks" type="int" value="1"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="archerMod" type="int" value="-1"/>
+    <property name="bonusBarracks" type="int" value="1"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="archerMod" type="int" value="-1"/>
+    <property name="bonusBarracks" type="int" value="1"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="archerMod" type="int" value="-1"/>
+    <property name="bonusBarracks" type="int" value="1"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="archerMod" type="int" value="-1"/>
+    <property name="bonusBarracks" type="int" value="1"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="archerMod" type="int" value="-1"/>
+    <property name="bonusBarracks" type="int" value="1"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="1"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="48">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="52">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="55">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="56">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="58">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="59">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="61">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="62">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="63">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="64">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="65">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="66">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="67">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="68">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="69">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="70">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="74">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="77">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="78">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="79">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="2"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="2"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="2"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="83">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="2"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="84">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="2"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="85">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="2"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="2"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="87">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="2"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="88">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="2"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="2"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="90">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="92">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="2"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="2"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="94">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="95">
+   <properties>
+    <property name="archerMod" type="int" value="0"/>
+    <property name="bonusBarracks" type="int" value="0"/>
+    <property name="bonusFarm" type="int" value="0"/>
+    <property name="bonusMarket" type="int" value="0"/>
+    <property name="crossPenalty" type="int" value="0"/>
+    <property name="defenderMod" type="int" value="0"/>
+    <property name="passable" type="bool" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Water 1" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SvQoAIAiFUYeGBsfe/1lbGkISW+wHvuEgSdDlUhGRAgAAvlfNvEnN3Mmd3Y2Oad+bz+rss7qxmVZ9VWefmSm6d/ofIdYeyAAAwO86nJH2PyQTAAA=
+  </data>
+ </layer>
+ <layer name="Water 2" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2USQ7EMAgEI+X/f56rhVi6gMzJSD7ELC6HNs9zTbG32HuDGNWvMpwr80W8mb/DE51dcW4zVf3xfJZfzaUs9iyVwdbrMila6awNlnNPrR39zy0WUpuyZ3W678LT0casIfVs3OasUefJlwwZy5fvReEgDEofOxyUgeqacES+aW8246hGvf+8yZLN5TPGzkaiF+WulS/jms7e6G1XOd53lku4Mj6i5wlLVM/TAtFxhyPrPdEB6TXJn8ys7A60Jp2xU31FdafndM9X70jZovt1jWjg2rVr/7cfKX6BfiQTAAA=
+  </data>
+ </layer>
+ <layer name="Water 3" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA9VVWwrAMAhr73/pMdjHkDrj2wUKW32FNtq1/oP9rO76XTxO9eleFT9NzSncTrU77lI6qwk81stWcW+Inqv1w9kknypM4HBjGg8tlwxtoTru1PkJk2d1dm3OXsGB26/WQ5Ruo7l662f1NmdDckTUl/JI73vlvJR0buVgwSbfXn1Y47PeHmtcRp94uaDzRep/K7hYdNZQv8jeR87EkgfRAmrf5P/LR6rBcdPo4yvGszho/ZFYT84IZJ5XFVBOF+0XNIgkEwAA
+  </data>
+ </layer>
+ <layer name="Water 4" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA91XSQ6AIAzkxv9/7EUTQ6CdKVNsnISLdLcbrdVEv88f0VsN/xQ2MPxRfV/H6TSq+JuRH924Y+So6Fc+rvgjMWF4Vr2hG3eePORbxCYWVkxR2vd9Rh9Vy6rS69/4wiZPJ2IPU0PZYPLTo8m2ZaRZ9RdPLqvHopkdNaK7hnpPUfTNrPnHIpITO7qsWTij9+ShOiO8DNB/ivquxk6tq2v6xJsBtbnizMzco0ddjGzl3hitAzZ2p3IaBRrTrHk67g27snbtO7kzPbgAHQ85piQTAAA=
+  </data>
+ </layer>
+ <layer name="Ground 1" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RQQ4AEBADQEf/f7G7hKzqbiraxEWoQWvOSfo0GB1oF3s/2pdxF6Qz4x5MC9sQ6b55E6blZP08jzoQS9ZY5WfLLiqOao8tuOdXi5onEiWPLRqmlyxK/6RiqXTYYgvLoWap8rATOaPCwc4ANWYLJCQTAAA=
+  </data>
+ </layer>
+ <layer name="beach" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2XWwqEMAxFs8XReQrj/pcxDRiQ2NEkNnI/eiAfotZjbkuVqOPhVmpcajgxxqfU1GAs4X7CQ8NeHh89TsRlD4/P2mMu9XQ8R7I9ovX71RxqudTwZuXhHbinRW+4B4M6tvZD8GbPrNejlF6nXg8mc754iPQkA6vHN1uE7NlE1oIXJJfJeN0VLlaQXB50zfy1guaDlBWSC+f0op7VP1BcIt8kWfSebEHpCdNd6iC5oO2Psg8clXaed85lo50R/jVa8AOR0AjPJBMAAA==
+  </data>
+ </layer>
+ <layer name="dirt" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QwQkAIAwEwRRg//X68S2JcnqQXbh3hkQQERERRYy1Hzd36+jJOF7+xsWS/YvaU3EoLVWHm0XlcbKcehwMCsuNA0s/y61HmYujYvqRi6PSBPImcSEkEwAA
+  </data>
+ </layer>
+ <layer name="Trees 3" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SQQoAIAgFUe/QMQrq/qerICGCtn2DeeB+UM0AAADwi6IOWPKYZDF60jaqHt/HOQo1UMutRylKi/9MEzbsHeq7TBHu4vxv1fcB8FYHMT9k5yQTAAA=
+  </data>
+ </layer>
+ <layer name="Trees 2" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2XQQqAMAwE8wS/oaD/f54tEgwhzUmyEXYgF3tw2KaxipC/so/aRh1oEXk8tFBoHh1cvAfKJcoE4bLyQLh08chcZlWf7ywP+7zC50xc/FpVPvpej88NkY96ofo662Otq4ELgmivkN+myep8oe4T1se6oPfMulT1LyFfYO9c6H+ETrOPLjE68zjnCHm5Acj9cDEkEwAA
+  </data>
+ </layer>
+ <layer name="Mountains" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2VMQrAMAwD/YOO/v9PO7QB4Tpkk1zQQQghgw47JhFGwfWuCaRaIL71WGeF2/JI8GD3quZ29WHVpnPp7lkelSw7q1e5Wax8zFF6oMupJsx5xqw1LzjTCnCGFH2qoMeEf8A8TOnFpHcxxcP0TOmP4s3uMtkupzzV/2uMMX/kBsbCyk8kEwAA
+  </data>
+ </layer>
+ <layer name="Castle Town" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3VwQkAIQxE0SliD7nZf5fLgIId5KvzwPsnaJQi4hRfd8BmzBP3qu6AyR2kux/xEsoesBKjZ3UMcf5CN3hPds+HNJcS587E2yhvwtauoLRQ5hKx+wGhh20TJBMAAA==
+  </data>
+ </layer>
+ <layer name="River" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SUQqAIBCE4X3sEgVlWfc/YYoGEdajs9D/weCjwzJmAIAvY8qkLlF57LKkrOIuW0qs8XYfDwbz00V1l9nKVsPtVXXJ/+at7o8coi5/30ZL7y7hJYoul9iIaqcAAPRyAly6HRUkEwAA
+  </data>
+ </layer>
+ <layer name="River2" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UoREAIAwEwZdpAgT9F4lBBRfzL24byE0mIAEAMHPcAc1yBzzlDmhKeU0JnPe7jbPxS30fR3n/bJe6OwAAJi537OgFJBMAAA==
+  </data>
+ </layer>
+ <layer name="bridge" width="35" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3DMQ0AAAgDsNnAv1GevRggbdIEAPhsGgAAuC2hAfDaJBMAAA==
+  </data>
+ </layer>
+</map>
