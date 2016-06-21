@@ -15,7 +15,7 @@ public class Play extends BasicGameState{
 	private Animation archerani;
 	//private boolean mousePressed;
 	
-	private Input input;
+	//private Input input;
 	private int archerx = 200;
 	private int archery = 200;
 	private int xpos = 200;
@@ -61,7 +61,7 @@ public class Play extends BasicGameState{
 	}
 	public void update(GameContainer gc, StateBasedGame sbg, int delta)throws SlickException{
 		
-		input = gc.getInput();
+		//input = gc.getInput();
 		int Water = map.getLayerIndex("Water 4");
 		xpos = Mouse.getX();
 		ypos = Mouse.getY();
