@@ -11,6 +11,8 @@ import org.newdawn.slick.*;
 import org.newdawn.slick.state.*;
 import org.newdawn.slick.tiled.*;
 
+
+
 public class Play extends BasicGameState{
 	private Animation archerani;
 	//private boolean mousePressed;
@@ -27,7 +29,9 @@ public class Play extends BasicGameState{
 	//private int[] duration = {200,200};
 	//private float positionX = 0;
 	//private float positionY = 0;
-	
+	private int playerFaction = 4;
+	private Image factionCrest = null;
+	private String factionKing = null;
 	public Play(int state) throws SlickException{
 		//
 	}
@@ -43,6 +47,8 @@ public class Play extends BasicGameState{
 	}
 	
 	public void render(GameContainer gc, StateBasedGame sbg, Graphics g)throws SlickException{
+		factionCrest = getImage(playerFaction);
+		factionKing = getKing(playerFaction);
 		//g.scale(1f, 1f);
 		//g.scale(Display.getWidth()/720, Display.getHeight()/600);
 		map.render(0,0,0,-3,720,600);
@@ -56,6 +62,9 @@ public class Play extends BasicGameState{
 		g.drawRect(560, 149, 158, 25);
 		g.drawRect(560, 174, 75, 75);
 		g.drawRect(560, 174, 158, 250);
+		g.drawString(factionKing,605 , 13);
+		factionCrest.draw(565,7, 35, 35);
+		
 		archerani.draw(archerx,archery);
 	
 	}
@@ -87,5 +96,50 @@ public class Play extends BasicGameState{
 	
 	public int getID() {
 		return 1;
+	}
+	public Image getImage(int x) throws SlickException{
+		Image y = null;
+		
+		switch(x){
+		case 1:
+			//Human
+y = new Image("/res/Human_Faction_Crest.png");
+			break;
+		case 2:
+			//Elf
+y = new Image("/res/Elf_Faction_Crest.png");
+			break;
+		case 3:
+			//Dwarf
+y = new Image("/res/Dwarf_Faction_Crest.png");
+			break;
+		case 4://Orc
+y = new Image("/res/Orc_Faction_Crest.png");
+			break;
+	}
+		return y;
+	}
+	
+	public String getKing(int x) throws SlickException{
+		String y = null;
+		
+		switch(x){
+		case 1:
+			//Human
+			y = "King";
+			break;
+		case 2:
+			//Elf
+			y ="Tarostar";
+			break;
+		case 3:
+			//Dwarf
+			y = "Ra' Dawi";
+			break;
+		case 4://Orc
+			y = "Kri-krisur";
+			break;
+	}
+		return y;
 	}
 }
