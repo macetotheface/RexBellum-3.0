@@ -10,6 +10,6 @@ public class swordsman extends unit {
 		this.setBaseAttack(20);
 		this.setBaseMoves(2);
 		this.setCurrentAttack(this.getBaseAttack());
-		this.setSheet(new SpriteSheet("/res/elfknight.png", 16,16));
+		this.setSheet(new SpriteSheet("/res/knight.png", 16,16));
 	}
 }
