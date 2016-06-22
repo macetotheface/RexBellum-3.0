@@ -13,6 +13,9 @@ import org.newdawn.slick.tiled.*;
 
 public class Play extends BasicGameState{
 	private Animation archerani;
+	private Animation horseani;
+	private Animation knightani;
+	
 	//private boolean mousePressed;
 	
 	//private Input input;
@@ -33,8 +36,12 @@ public class Play extends BasicGameState{
 	}
 	public String mouse = "no input yet";
 	public void init(GameContainer gc, StateBasedGame sbg)throws SlickException{	
-		archer hi = new archer();
-		archerani = new Animation(hi.getSheet(), 250);
+		archer archerunit = new archer();
+		knight horseunit = new knight();
+		swordsman knightunit = new swordsman();
+		archerani = new Animation(archerunit.getSheet(), 250);
+		horseani = new Animation(horseunit.getSheet(), 250);
+		knightani = new Animation(knightunit.getSheet(), 250);
 		map = new TiledMap("res/map.tmx");
 		
 		
@@ -57,24 +64,26 @@ public class Play extends BasicGameState{
 		g.drawRect(560, 174, 75, 75);
 		g.drawRect(560, 174, 158, 250);
 		archerani.draw(archerx,archery);
+		horseani.draw(100,100);
+		knightani.draw(300,300);
 	
 	}
 	public void update(GameContainer gc, StateBasedGame sbg, int delta)throws SlickException{
 		
 		//input = gc.getInput();
-		int Water = map.getLayerIndex("Water 4");
+		int Water = map.getLayerIndex("bridge");
 		xpos = Mouse.getX();
 		ypos = Mouse.getY();
 		mouse = "Mouse position x:" + xpos + "y" + ypos; 
 		boolean isMouseClicked = gc.getInput().isMousePressed(Input.MOUSE_LEFT_BUTTON);
 		int tileLocationX = Math.round(xpos)/map.getTileWidth();
-		int tileLocationY = Math.round(ypos)/map.getTileHeight();
+		int tileLocationY = Math.round(600-ypos)/(map.getTileHeight()+3);
 		if(isMouseClicked == true && ypos<560 && ypos>0 && xpos>0 && xpos<560) {
 			tileID = map.getTileId(tileLocationX,tileLocationY,Water);
-			gc.sleep(16);
+			//gc.sleep(16);
 			System.out.println(tileID);
 		}
-		if(isMouseClicked == true && xpos==(archerx%-16) && (600-ypos)==(archery%-16)){
+		if(isMouseClicked == true && xpos==(archerx) && (600-ypos)==(archery)){
 			System.out.println("hi");
 			//if(isMouseClicked == true){
 				//System.out.println("hello");
