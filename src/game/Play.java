@@ -1,8 +1,7 @@
 package game;
 
-import java.util.ArrayList;
+import java.util.ArrayList; 
 import java.util.List;
-
 import org.lwjgl.*;
 import org.lwjgl.input.Mouse;
 import mechanics.*;
@@ -28,9 +27,19 @@ public class Play extends BasicGameState{
 	//private float positionX = 0;
 	//private float positionY = 0;
 	
+	private faction playerFaction = new faction(true);
+	private faction aiFaction1 = new faction(false);
+	private faction aiFaction2 = new faction(false);
+	private faction aiFaction3 = new faction(false);
+	private barracks barracksStats = new barracks();
+	private farm farmStats = new farm();
+	private market marketStats = new market();
+	private tile[][] tileArray = new tile [35][35];
+	
 	public Play(int state) throws SlickException{
 		//
 	}
+	
 	public String mouse = "no input yet";
 	public void init(GameContainer gc, StateBasedGame sbg)throws SlickException{	
 		archer hi = new archer();
@@ -39,7 +48,6 @@ public class Play extends BasicGameState{
 		
 		
 		//holder = new Image("res/placeholder.png");
-		
 	}
 	
 	public void render(GameContainer gc, StateBasedGame sbg, Graphics g)throws SlickException{
@@ -85,7 +93,21 @@ public class Play extends BasicGameState{
 			
 	}
 	
+	//Created Methods
+		private void endTurn(){
+			playerFaction.endTurn();
+			aiFaction1.endTurn();
+			aiFaction2.endTurn();
+			aiFaction3.endTurn();
+			
+			aiFaction1.decision();
+			aiFaction2.decision();
+			aiFaction3.decision();
+		}
+		
 	public int getID() {
 		return 1;
 	}
+	
+	
 }
